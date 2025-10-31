@@ -1,0 +1,36 @@
+# =========================
+# 📦 Core Framework
+# =========================
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-dotenv==1.0.0
+pydantic[email]>=2.12.3
+pydantic-settings>=2.1.0
+python-multipart==0.0.6
+
+# =========================
+# 🗄️ Database / ORM
+# =========================
+sqlalchemy[asyncio]==2.0.23
+psycopg2-binary==2.9.9
+
+# =========================
+# 🤖 AI / ML Integrations
+# =========================
+google-generativeai>=0.8.5
+faster-whisper>=1.0.0
+
+# =========================
+# 🔊 Audio & Voice
+# =========================
+gTTS==2.5.1
+
+# =========================
+# ⏰ Time / Date
+# =========================
+pytz==2024.1
+
+# =========================
+# 🪵 Logging
+# =========================
+python-json-logger==2.0.7
