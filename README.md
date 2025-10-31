@@ -2,25 +2,6 @@
 
 A voice-first personal assistant backend that processes speech input, generates contextual AI responses using conversation history and user preferences, and returns synthesized speech output.
 
-## What This Project Does
-
-- Transcribes audio input (m4a) to text using local Faster-Whisper model
-- Generates personalized responses via LLM with conversation context and user preferences
-- Stores conversation history and user profiles in Supabase (PostgreSQL)
-- Returns text-to-speech audio output using gTTS
-
-## Why This Project Matters
-
-Enables natural voice conversations with an AI assistant that remembers past interactions and user-specific information (interests, goals, routines) across sessions.
-
-## My Contribution
-
-- Built FastAPI backend architecture with SQLAlchemy ORM models and service layer separation
-- Designed `/conversation/voice-loop` endpoint orchestrating transcription → LLM reasoning → TTS pipeline
-- Integrated Supabase for persistent cloud storage of conversations, messages, and user preferences
-- Implemented conversation context retrieval (last 10 messages) and user preference formatting for LLM prompts
-- Engineered user preference migration logic to consolidate duplicate database entries
-
 ## Tech Stack
 
 | Component | Technology |
