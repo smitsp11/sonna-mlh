@@ -24,7 +24,7 @@ build/
 Thumbs.db
 *.swp
 *.swo
-*~
+*
 
 # IDEs
 .vscode/
@@ -33,10 +33,3 @@ Thumbs.db
 
 # Logs
 *.log
-logs/
-
-# Database (local/test databases)
-*.db
-*.sqlite
-*.sqlite3
-*.db-journal
