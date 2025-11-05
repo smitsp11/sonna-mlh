@@ -3,6 +3,7 @@
 A voice-first personal assistant backend that processes speech input, generates contextual AI responses using conversation history and user preferences, and returns synthesized speech output.
 
 > **MLH-Optimized Version** - This is a streamlined MVP version. For the full expanded implementation, see [original Sonna repository](https://github.com/smitsp11/sonna).
+> See demo [youtube video](https://youtu.be/JFhAXpgxgpQ)
 
 ## Tech Stack
 
